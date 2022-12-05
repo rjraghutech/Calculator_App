@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.text-head {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  background-color: black;
+  padding: 3px 0;
+}
+
+.row {
+  margin: 5px 0;
+}
+
+.button {
+  padding: 15px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  font-size: 14px;
+  margin: 0 3px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.input {
+  height: 6vh;
+  width: 17vw;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 3px 10px;
+}
